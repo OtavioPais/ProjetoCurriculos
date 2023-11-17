@@ -1,0 +1,30 @@
+Orientações para executar o projeto:
+
+1- Executar o Xampp e acionar o Apache e o Mysql
+
+2 - O Banco de Dados está com um script em database.py para criar o banco e a tabela (juntamente importar os 20 cadastros já realizados)
+
+3 - Faça a instalação das depêndencias abaixo:
+
+- PIP install Tkinter (geralmente já é incluido nos S.O Windows e MacOS)
+- PIP install mysql-connector-python
+- PIP install fpdf
+- PIP install Pillow
+
+4 - executar o arquivo main para rodar o programa
+
+5 - Funcionalidades:
+
+- Cadastro de Currículos
+- Gerador de PDF Completo e Resumido
+- Busca de Currículos dos candidatos com as melhores Notas nas avaliações
+- Botão de Sair do programa
+- Botão de fechar a janela e voltar para anterior
+
+6 - Desenvolvido a mais no projeto:
+
+- Limpar os campos após o cadastro do candidato
+- imagens para melhor visibilidade do programa (adaptado ao Mobile)
+- utilização de messagebox para melhor interação do usuário
+- validação de dados para cadastrar (campos vazios e tipo de campo ao cadastrar)
+- Organização na busca de candidatos utilizando Frame do Tkinter
